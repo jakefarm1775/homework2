@@ -1,0 +1,9 @@
+services:
+  hw2:
+    image: jakefarm1775/homework-02:latest
+    container_name: how2
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /home/appserver/homework2
